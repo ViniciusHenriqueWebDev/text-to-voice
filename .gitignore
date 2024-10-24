@@ -1,0 +1,19 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+
+# Ambiente virtual
+venv/
+.env
+
+# Pacotes e distribuição
+*.egg-info/
+dist/
+build/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
