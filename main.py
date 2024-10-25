@@ -69,14 +69,14 @@ def obter_vozes_disponiveis():
 def dividir_em_frases_coerentes(texto, min_words=8):
     system_prompt = (
         "Você é um assistente que divide textos em falas coerentes que serão legendadas. "
-        "Garanta que cada fala esteja em uma linha separada, com sentido completo e natural, evitando falas com muitas palavras para facilitar a leitura da legenda."
+        "Garanta que cada fala esteja em uma linha separada, com sentido completo e natural, evitando falas com muitas palavras para facilitar a leitura da legenda com base no contexto da nossa apresentação."
     )
 
     # Prompt for the API
     prompt = (
         f"Divida o seguinte texto em falas, cada uma representando uma ideia completa. "
         f"As falas devem estar em uma linha separada cada, conter no mínimo {min_words} palavras, "
-        f"e o texto deve manter fluidez: {texto}"
+        f"e o texto deve copiar exatamente o que eu mandar: {texto}"
     )
 
     url = f"{endpoint}/openai/deployments/{deployment_name}/chat/completions?api-version={api_version}"
