@@ -17,8 +17,8 @@ from playsound import playsound  # To play audio
 import pygame
 
 # Azure OpenAI API configuration
-api_key = "bc966688c49b4a30b726303c0e7d42d7"  # Utilize variáveis de ambiente
-endpoint = "https://brevia-openai.openai.azure.com/"  # Atualize com o seu endpoint Azure OpenAI
+api_key = "x"  # Utilize variáveis de ambiente
+endpoint = "x"  # Atualize com o seu endpoint Azure OpenAI
 api_version = "2023-05-15"
 deployment_name = "gpt-4o-mini"  # Seu nome de deployment
 
