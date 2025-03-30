@@ -23,8 +23,8 @@ api_version = "2023-05-15"
 deployment_name = "gpt-4o-mini"  # Seu nome de deployment
 
 # Configurações do Eleven Labs API
-elevenlabs_api_key = "2aac1915995753e9b15e15140f50a4f0"  # Utilize variáveis de ambiente
-elevenlabs_voice_id = "dX7gRq1dIvLTgUaWpEFn"  # Substitua pelo ID da voz correta
+elevenlabs_api_key = "x"  # Utilize variáveis de ambiente
+elevenlabs_voice_id = "x"  # Substitua pelo ID da voz correta
 
 # Firebase Storage configuration
 SERVICE_ACCOUNT_KEY_PATH = 'serviceAccountKey.json'  # Path to your service account key file
